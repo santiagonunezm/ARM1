@@ -3,18 +3,18 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "snunezadm"
+      "value": "SnunezAdm"
     },
     "adminPassword": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/XXXXXXX/resourceGroups/resourceGroupName/providers/Microsoft.KeyVault/vaults/vaultName"
+          "id": "/subscriptions/121c730c-b376-4564-bd76-85810a46a4d3/resourceGroups/SantiNunez/providers/Microsoft.KeyVault/vaults/SantiNunezKeyVault"
         },
-        "secretName": "secretName"
+        "secretName": "SnunezAdmPass"
       }
     },
     "dnsLabelPrefix": {
-      "value": "snunez"
+      "value": "Snunez"
     },
     "windowsOSVersion": {
       "value": "2012-R2-Datacenter"
