@@ -32,7 +32,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
+    "storageAccountName": "[concat(uniquestring(resourceGroup().id), '-sa')]",
     "location": "[resourceGroup().location]",
     "dataDisk1VhdName": "datadisk1",
     "imagePublisher": "MicrosoftWindowsServer",
